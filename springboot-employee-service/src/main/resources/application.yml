@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: employee-service
+  cloud:
+    config:
+      uri:
+      - http://localhost:8888
+
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: gateway
